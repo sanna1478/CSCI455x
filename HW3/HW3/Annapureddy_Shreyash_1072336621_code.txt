@@ -1,0 +1,65 @@
+ColorList.java
+-----
+import java.awt.Color;
+import java.util.ArrayList;
+import java.util.Random;
+public class ColorList {
+
+	private Random rand = new Random();
+	private int numLoops = 256;
+	public ArrayList <java.awt.Color> colList = new ArrayList <java.awt.Color> ();
+	
+	public static void main(String[] args) {
+		ColorList colList = new ColorList();
+		
+		for(int i=0; i<colList.colList.size(); i++) {
+			System.out.println(colList.colList.get(i));
+		}
+
+	}
+	
+	public ColorList() {
+		int r=0, g=0, b=0;
+		for(int i=0; i<numLoops; i++) {
+			r = rand.nextInt(256);
+			g = rand.nextInt(256);
+			b = rand.nextInt(256);
+			
+			Color c = new Color(r,g,b);
+			colList.add(c);
+		}
+	}
+
+}
+
+ColorStrips.java
+-----
+import java.awt.*;
+import javax.swing.*;
+
+public class ColorStrips {
+
+	public static void main(String[] args) {
+		ColorList colList = new ColorList(); // Generate colors, to use for populating strips below
+		
+		JFrame frame = new JFrame(); // Window
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		frame.setLayout(new GridLayout(colList.colList.size(),1));
+		
+		JPanel p;
+		Color c;
+		
+		for(int i=0; i<colList.colList.size(); i++) {
+			p = new JPanel();
+			c = colList.colList.get(i);
+			p.setBackground(c);
+			p.setPreferredSize(new Dimension(100,4));
+			frame.add(p);
+		}
+		
+		frame.pack();
+		frame.setVisible(true);
+	}
+
+}
