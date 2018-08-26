@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="HW2" Database="HW2.tags" Version="10.0.0">
+  <Project Name="HW2_Q1" Path="HW2_Q1/HW2_Q1.project" Active="No"/>
+  <Project Name="HW2_Q3" Path="HW2_Q3/HW2_Q3.project" Active="Yes"/>
+  <Project Name="HW2_Q2" Path="HW2_Q2/HW2_Q2.project" Active="No"/>
+  <Project Name="HW2_Q3_EC1" Path="HW2_Q3_EC1/HW2_Q3_EC1.project" Active="No"/>
+  <Project Name="HW2_Q3_EC2" Path="HW2_Q3_EC2/HW2_Q3_EC2.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="HW2_Q1" ConfigName="Debug"/>
+      <Project Name="HW2_Q3" ConfigName="Debug"/>
+      <Project Name="HW2_Q2" ConfigName="Debug"/>
+      <Project Name="HW2_Q3_EC1" ConfigName="Debug"/>
+      <Project Name="HW2_Q3_EC2" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="HW2_Q1" ConfigName="Release"/>
+      <Project Name="HW2_Q3" ConfigName="Release"/>
+      <Project Name="HW2_Q2" ConfigName="Release"/>
+      <Project Name="HW2_Q3_EC1" ConfigName="Release"/>
+      <Project Name="HW2_Q3_EC2" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
