@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="cs455xHW1" Database="cs455xHW1.tags" Version="10.0.0">
+  <Project Name="HW1_Q1" Path="HW1_Q1/HW1_Q1.project" Active="No"/>
+  <Project Name="HW1_Q2" Path="HW1_Q2/HW1_Q2.project" Active="No"/>
+  <Project Name="HW1_ExtraCredit" Path="HW1_ExtraCredit/HW1_ExtraCredit.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="HW1_Q1" ConfigName="Debug"/>
+      <Project Name="HW1_Q2" ConfigName="Debug"/>
+      <Project Name="HW1_ExtraCredit" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="HW1_Q1" ConfigName="Release"/>
+      <Project Name="HW1_Q2" ConfigName="Release"/>
+      <Project Name="HW1_ExtraCredit" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
